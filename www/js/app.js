@@ -69,10 +69,26 @@ window.addEventListener('load', function() {
      
     /*Declare modal*/
     $JSView.declareModal({
+		
         modal_info_aeroport: {
             url: '/modal_info_aeroport',
             template: 'views/modal_info_aeroport.html',
             controller: 'modal_info_aeroport'
+        }
+        modal_info_coliseo: {
+            url: '/modal_info_coliseo',
+            template: 'views/modal_info_coliseo.html',
+            controller: 'modal_info_coliseo'
+        }
+			modal_info_sanpietro: {
+            url: '/modal_info_sanpietro',
+            template: 'views/modal_info_sanpietro.html',
+            controller: 'modal_info_sanpietro'
+        }
+       modal_info_navona: {
+            url: '/modal_info_navona',
+            template: 'views/modal_info_navona.html',
+            controller: 'modal_info_navona'
         }
     });
      
